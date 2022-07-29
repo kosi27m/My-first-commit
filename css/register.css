@@ -1,0 +1,57 @@
+header{
+    display: flex;
+}
+
+
+
+.head{
+    text-align: center;
+    padding: 30px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: deepskyblue;
+    color: white;
+    padding-top: 8px;
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0cm;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.info2{
+    display: flex;
+    justify-content: center;
+}
+
+.creation{
+    padding: 200px;
+}
+
+.lhs{
+    background-image: url(../img/image1.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    transition: 1s;
+    transform: translate(-0%);
+    animation: fade 10s ease-in-out infinite;
+}
+
+@keyframes fade {
+  0%{
+    background-image: url(../img/image2.png);
+  }
+
+}
